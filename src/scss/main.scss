@@ -1,0 +1,414 @@
+body {
+  // background-image: url("../images/jakub.jpg");
+  // background-color: black;
+
+
+
+}
+
+
+
+.index {
+  color: white;
+
+  background: url("../images/logo_back.jpg") no-repeat center center;
+  background-size: 750px 580px;
+
+  background-color: black;
+  margin-right: 0;
+
+
+
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+
+
+
+
+}
+.about, .contact {
+  color: black;
+  background-color: white;
+  margin-right: 0;
+  background: url("../images/logo_back_2.png") no-repeat center center;
+  background-size: 750px 580px;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+
+
+}
+
+.projects {
+
+  margin-right: 0;
+  background: url("../images/logo_back_3.png") no-repeat center center;
+  background-size: 750px 580px;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+
+
+}
+
+nav {
+  background-color: black;
+
+  height: 60px;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
+  // top: 0;
+  z-index: 100;
+
+  left:0;
+  right:0;
+
+  position: fixed;
+  // position: sticky;
+  width: 100vw;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  padding-right: 100px;
+  padding-left: 100px;
+
+
+
+}
+.about-nav {
+    background-color: white;
+    color: black;
+
+}
+nav a {
+  position: relative;
+  display: inline-block;
+  margin: 15px 25px;
+  outline: none;
+  color: #fff;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  text-shadow: 0 0 1px rgba(255,255,255,0.3);
+  font-size: 1.35em;
+}
+
+nav a:hover,
+nav a:focus {
+  outline: none;
+  color: white;
+}
+
+.cl-effect-6 a {
+	margin: 0 10px;
+	padding: 10px 20px;
+}
+
+.cl-effect-6 a::before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	background: #fff;
+	content: '';
+	-webkit-transition: top 0.3s;
+	-moz-transition: top 0.3s;
+	transition: top 0.3s;
+}
+
+.cl-effect-6 a::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 2px;
+	height: 2px;
+	background: #fff;
+	content: '';
+	-webkit-transition: height 0.3s;
+	-moz-transition: height 0.3s;
+	transition: height 0.3s;
+}
+
+.cl-effect-6 a:hover::before {
+	top: 100%;
+	opacity: 1;
+}
+
+.cl-effect-6 a:hover::after {
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+
+.parallax {
+  /* The image used */
+
+  background-color: black;
+
+  /* Set a specific height */
+  height: 50vh;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p-1 {
+  background-image: url("http://i.imgur.com/lAvvIcJ.jpg");
+
+  width: 100vw;
+  margin: 0 auto;
+}
+.p-2 {
+  background-image: url("http://i.imgur.com/wACEAjS.png");
+  width: 100vw;
+  margin: 0 auto;
+}
+.p-3 {
+
+  background-image: url("http://i.imgur.com/PNHq5pn.jpg");
+  width: 100vw;
+  margin: 0 auto;
+
+}
+
+@media screen and (max-width: 1000px) {
+  .index {
+    .image-index {
+      margin: 0 auto;
+      border: 3px solid black;
+
+    }
+    .welcome-index {
+      max-width: 80vw;
+      margin: 0 auto;
+    }
+  }
+}
+.circle-logo {
+
+
+position: absolute;
+  height: 560px;
+  width: 560px;
+  border: 1px solid red;
+  border-radius: 50%;
+  top: 11vh;
+
+
+position: relative;
+overflow: hidden;
+
+}
+
+
+img {
+  display: inline;
+  margin: 0 auto;
+
+ height: 850px;
+
+
+}
+
+// .text-left-curve {
+//   color: gray;
+//   // content: "";
+//   // width: 1000px;
+//   width: 20vw;
+// margin-top: 10vh;
+// float: left;
+// height: 80vh;
+//
+// }
+// .text-right-curve {
+//   color: gray;
+//   // content: "";
+//   // width: 1000px;
+//   margin-top: 10vh;
+// width: 20vw;
+// float: right;
+// display: block;
+// height: 80vh;
+//
+// }
+p{
+  color: gray;
+  margin-top: 10vh;
+  width:400px;
+  margin-right:15px;
+  text-align:justify;
+  overflow:hidden;
+  float:left;
+}
+p:before{
+  content:'';
+  width: 200px;
+  height: 800px;
+}
+#right {
+  margin-left: 250px;
+}
+#left:before{
+  float:right;
+  shape-outside: circle(40% at 100% 35%);
+}
+#right:before{
+  float:left;
+  shape-outside: circle(40% at 0 35%);
+}
+
+
+
+
+
+
+.black {
+  display: flex;
+}
+
+
+// .text-left-curve, .text-right-curve {
+//   width: 49%;
+// }
+// .text-left-curve:before, .text-right-curve:before {
+//
+//
+//   content: "";
+//  width: 325px;
+//  height: 300px;
+//  top: 50%;
+//
+//
+// }
+//
+//
+//
+// .text-left-curve:before {
+// float: right;
+// }
+// .text-right-curve:before {
+// float: left;
+// }
+// .text-left-curve:before {
+//
+//   content: "";
+// width: 125px;
+// height: 250px;
+// float: left;
+//
+// }
+
+
+
+
+
+
+
+
+  img {
+// border-radius: 10%;
+    height: 300px;
+    border: 1px solid white;
+      // opacity: 0.5;
+  }
+
+  img:hover {
+    opacity: 1;
+  }
+
+.img-pro-right {
+
+}
+.img-pro-left {
+
+}
+.bottom-projects {
+  img {
+    margin-bottom: 15px;
+
+
+  }
+  margin-bottom: 300px;
+}
+.projects-images {
+  margin-top: 6vh;
+}
+.img-pro-1 {
+  margin-left: 108px;
+  img {
+
+  margin-bottom: 10px;
+}
+}
+.img-pro-2 {
+  margin-right: -30px;
+
+}
+.projects-images {
+  margin-top: 50px;
+}
+.img-pro-1 {
+
+}
+
+.pro-text {
+
+  position: absolute;
+margin-left: 35vw;
+margin-top: 25vh;
+
+}
+.img-pro-1 {
+  img:hover {
+    -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     border-radius: 10px;
+ //  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+ // -moz-box-shadow:    0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+ box-shadow:         -10px -10px 0px 0px rgba(0, 255, 0, 0.67);
+  }
+}
+.img-pro-2 {
+  img:hover {
+    -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     border-radius: 10px;
+ //  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+ // -moz-box-shadow:    0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+ box-shadow:         10px -10px 0px 0px rgba(0, 255, 0, 0.67);
+  }
+}
+.img-pro-3 {
+  img:hover {
+    -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     border-radius: 10px;
+ //  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+ // -moz-box-shadow:    0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+ box-shadow:         -10px 10px 0px 0px rgba(0, 255, 0, 0.67);
+  }
+}
+.img-pro-4 {
+  img:hover {
+    -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     border-radius: 10px;
+ //  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+ // -moz-box-shadow:    0px 0px 30px 0px rgba(0, 255, 0, 0.67);
+ box-shadow:         -10px 10px 0px 0px rgba(0, 255, 0, 0.67);
+  }
+
+}
