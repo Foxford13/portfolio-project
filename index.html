@@ -9,121 +9,160 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="public/js/app.js" charset="utf-8"></script>
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link rel="stylesheet" href="public/css/main.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
 </head>
 <body>
   <main>
-    <!-- <nav>
-    <ul>
-    <li><a >Home</a></li>
-    <li ><a href="#about">About</a></li>
-    <li ><a href="#projects">Projects</a></li>
-    <li ><a href="#skills">Skills</a></li>
-    <li ><a href="#">Contact</a></li>
-  </ul>
-</nav> -->
-<!-- when backround changes the color of navbar also changes -->
-<!-- make navbar smaller -->
+    <section class="color-4">
+      <nav class="cl-effect-6">
+        <a href=".index">Home</a>
+        <a href=".about">About me</a>
+        <a href=".projects">Projects</a>
+        <a href=".skills">Skills</a>
+        <a href=".contact">Contact</a>
 
-<section class="color-4">
-  <nav class="cl-effect-6">
-    <a href=".index">Home</a>
-    <a href=".about">About</a>
-    <a href=".projects">Projects</a>
-    <a href=".contact">Contact</a>
+      </nav>
+    </section>
+    <div class="index">
+      <div class="container">
+        <div class="row ">
+          <div class="col-md-3 col-md-offset-1">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax p-1"></div>
+    <div class="about" id="about">
+      <div class="container">
 
-  </nav>
-</section>
-<div class="index">
-  <div class="row black">
-    <div class="col-md-3 col-md-offset-1 image-index">
-      <p2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p2>
 
+        <div class="row">
+
+          <h2 class="sub-title">About me</h2>
+          <!-- <div class="col-md-11 col-md-offset-1 black"> -->
+
+          <!-- <p id="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut  enim ad minim veniam, quis nostrud exercitation ullamco  laboris nisi ut aliquip ex ea commodo consequat. Duis  aute irure dolor in reprehenderit in voluptate velit  esse cillum dolore eu  fugiat nulla pariatur. Excepteur  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui </p> -->
+
+          <!-- </div> -->
+          <!-- <div class="circle-logo"> <img src="src/images/Jakub.jpg" alt=""> </div> -->
+          <!-- <div class="text-right-curve"> -->
+          <!-- <p id="right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut  enim ad minim veniam, quis nostrud exercitation ullamco  laboris nisi ut aliquip ex ea commodo consequat. Duis  aute irure dolor in reprehenderit in voluptate velit  esse cillum dolore eu  fugiat nulla pariatur. Excepteur  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore m </p> -->
+          <div class="col-md-4 col-md-offset-4 text-about">
+            <p>A couple of years ago I made friends with designers and programmers in an online forum. After being shown some of their work, being naturally curious, I decided to learn a bit of programming. Realising that it's one of a few things that I have ever done that I couldn’t be pulled away from, I decided to make it my career. That has led me to GA WDI course where I had the chance to work with more complex technologies that I have never experienced before. With experience gathered during the course and a lot of research of the industry, I was reinforced in my conviction that this is a right path for me. Now I am looking for a team that would help me grow and would allow me to give something back to the community.</p>
+            <!-- </div> -->
+
+            <!-- </div> -->
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax p-2"></div>
+    <div class="projects" id="projects">
+      <div class="container">
+
+        <div class="row top-projects">
+          <h2 class="sub-title">Projects</h2>
+          <div class="imgs-pro-top">
+            <!-- add click me option on hover -->
+            <div class="col-md-4  img-pro img-pro-1">
+              <a href="https://reversi-wdi-27.herokuapp.com/" target="_blank"><img src="src/images/project-1.png" alt=""></a>
+            </div>
+            <div class="col-md-4  col-md-offset-2 img-pro img-pro-2">
+              <a href="https://bookfinder-wdi-27.herokuapp.com/" target="_blank"><img src="src/images/project-2.png" alt=""></a>
+            </div>
+          </div>
+          <!-- go in more detail about the projects  -->
+          <!-- make the text appear circular -->
+
+          <div class="pro-text pro-1-text hidden">
+            <p>That was a first project we had to do at General Assembly. The premise was simple. We come up with a game, then we code in Javascript. As it was </p>
+          </div>
+          <div class="pro-text pro-2-text hidden">
+            <p>Our second project required us to create a RESTful up with at least one API hooked up, and a login and register form for the user.  I focused on creating a database for book exchange points where people could exchange books freely between each other. The two APIs I used were Google Books and Google Maps.</p>
+          </div>
+          <div class="pro-text pro-3-text hidden">
+            <p>It was a group project in which myself, and other two team members, made a social platform in which people can meet up and exchange their knowledge with other people. I was responsible for implementing Google Maps API and adjusting it so it would improve user experience and ease of locating other users willing to exchange their services. The features included geolocation, reverse geocoding, autocomplete for addresses, and geolib.
+            </p>
+          </div>
+          <div class="pro-text pro-4-text hidden">
+            <p>For the last project I decided to work on my own in order to test my abilities.  After being introduced to Ruby and Rails we were required to create an application that implemented them in the backend, and AngularJS at the front. Purpose of my application was to create a place where people could buy and sell second hand computer parts. </p>
+          </div>
+
+
+        </div>
+
+      <div class="row bottom-projects">
+        <div class="col-md-4 img-pro img-pro-3">
+          <a href="https://notitia-wdi27.herokuapp.com/"  target="_blank"><img src="src/images/project-3.png" alt=""></a>
+
+        </div>
+        <div class="col-md-4 col-md-offset-2 img-pro img-pro-4">
+          <a href="https://frozen-castle-66101.herokuapp.com/" target="_blank">   <img src="src/images/project-4.png" alt=""> </a>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  <div class="parallax p-3"></div>
+  <div class="skills" id="skills">
+    <div class="container">
+      <div class="row">
+        <h2 class="sub-title-black">My Skills</h2>
+        <div class="col-md-4 col-md-offset-4 skills-logo">
+          <i class="devicon-angularjs-plain colored"></i>
+          <i class="devicon-atom-original colored"></i>
+          <i class="devicon-babel-plain colored"></i>
+          <i class="devicon-bootstrap-plain-wordmark colored"></i>
+          <i class="devicon-bower-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+          <i class="devicon-express-original-wordmark"></i>
+          <i class="devicon-git-plain-wordmark colored"></i>
+          <i class="devicon-github-plain"></i>
+          <i class="devicon-gulp-plain colored"></i>
+          <i class="devicon-heroku-plain-wordmark colored"></i>
+          <i class="devicon-html5-plain colored"></i>
+          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-jquery-plain-wordmark colored"></i>
+          <i class="devicon-mongodb-plain-wordmark colored"></i>
+          <i class="devicon-nodejs-plain colored"></i>
+          <i class="devicon-photoshop-plain colored"></i>
+          <i class="devicon-postgresql-plain-wordmark colored"></i>
+          <i class="devicon-rails-plain-wordmark colored"></i>
+          <i class="devicon-ruby-plain-wordmark colored"></i>
+          <i class="devicon-sass-original colored"></i>
+
+        </div>
+      </div>
     </div>
 
   </div>
-</div>
-<div class="parallax p-1"></div>
-<div class="about" id="about">
-  <div class="row">
-    <div class="col-md-11 col-md-offset-1 black">
-      <!-- <div class="green">
-      <p2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p2>
+  <div class="parallax p-3"></div>
+  <div class="contact" id="contact">
+    <div class="container">
+      <div class="row">
 
-    </div> -->
+        <div class="col-md-4 contact-links">
+          <h2>Some ways to contact me</h2>
+          <a href="mailto:jakubdziek@gmail.com"><img class="mail"  src="public/images/icons/png/003-close-envelope.png" alt="mail-adress"></a>
 
-    <!-- <div class="text-left-curve"> -->
-      <p id="left">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut  enim ad minim veniam, quis nostrud exercitation ullamco  laboris nisi ut aliquip ex ea commodo consequat. Duis  aute irure dolor in reprehenderit in voluptate velit  esse cillum dolore eu  fugiat nulla pariatur. Excepteur  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, qui </p>
+          <a href="#"><img src="public/images/icons/png/002-linkedin-letters.png" alt="linkedin"></a>
+          <a href="https://github.com/Foxford13"><img src="public/images/icons/png/001-github-logo.png" alt="github-link"></a>
 
-    <!-- </div> -->
-    <!-- <div class="circle-logo"> <img src="src/images/Jakub.jpg" alt=""> </div> -->
-    <!-- <div class="text-right-curve"> -->
-      <p id="right">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut  labore et dolore magna aliqua. Ut  enim ad minim veniam, quis nostrud exercitation ullamco  laboris nisi ut aliquip ex ea commodo consequat. Duis  aute irure dolor in reprehenderit in voluptate velit  esse cillum dolore eu  fugiat nulla pariatur. Excepteur  sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore m </p>
 
-    <!-- </div> -->
-
+        </div>
+      </div>
+    </div>
 
   </div>
-</div>
-</div>
-<div class="parallax p-2"></div>
-<div class="projects" id="projects">
-  <div class="row">
-    <div class="imgs-pro-top">
-      <div class="col-md-4 col-md-offset-1 img-pro img-pro-1">
-        <a href="https://reversi-wdi-27.herokuapp.com/" target="_blank"><img src="src/images/project-1 copy.png" alt=""></a>
-      </div>
-      <div class="col-md-4 col-md-offset-1 img-pro img-pro-2">
-        <a href="https://bookfinder-wdi-27.herokuapp.com/" target="_blank"><img src="src/images/project-2 copy.png" alt=""></a>
-      </div>
-    </div>
-    <!-- go in more detail about the projects  -->
-    <div class="pro-text pro-1-text hidden">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="pro-text pro-2-text hidden">
-      <p>My second project</p>
-    </div>
-    <div class="pro-text pro-3-text hidden">
-      <p>my third project</p>
-    </div>
-    <div class="pro-text pro-4-text hidden">
-      <p>my 4th project</p>
-    </div>
-  </div>
-    <!-- <div class="pro-text">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    </div> -->
-    <div class="row bottom-projects">
-      <div class="col-md-4 col-md-offset-1 img-pro img-pro-3">
-     <a href="https://notitia-wdi27.herokuapp.com/"  target="_blank"><img src="src/images/project-3 copy.png" alt=""></a>
-
-      </div>
-      <div class="col-md-4 col-md-offset-1 img-pro img-pro-4">
-        <a href="https://frozen-castle-66101.herokuapp.com/" target="_blank">   <img src="src/images/project-4 copy.png" alt=""> </a>
-
-      </div>
-    </div>
-
-
-
-</div>
-<div class="parallax p-3"></div>
-<div class="contact" id="contact">
-  <div class="row">
-    <div class="col-md-10 col-md-offset-1 black">
-      <!-- <h1>Hello </h1> -->
-
-      <!-- <div class="row"> -->
-      <div class="green">
-      </div>
-
-      <!-- </div> -->
-    </div>
-  </div>
-</div>
 
 
 </main>
