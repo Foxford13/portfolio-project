@@ -4,6 +4,7 @@ body {
 
 
   font-family: 'Lato', sans-serif;
+
 }
 
 
@@ -53,25 +54,23 @@ body {
 
 .projects,  .contact {
 
+
   h2 {
     color: white;
     position: absolute;
   }
 
 
-  background-size: 750px 580px;
-  margin-right: 0;
+
+
   background: url("../images/logo_back_3.png") no-repeat center center;
 
   background-size: 750px 580px;
 
-  margin-right: 0;
-
-
 
   height: 100vh;
   width: 100vw;
-  margin: 0 auto;
+  // margin: 0 auto;
   background-color: black;
 
 
@@ -450,6 +449,9 @@ nav a:focus {
       margin: 0 auto;
     }
   }
+  .projects {
+    background-position: 311vw;
+  }
 
 }
 @media screen and (min-height: 800px), screen and (min-width: 1800px) {
@@ -475,7 +477,7 @@ nav a:focus {
     }
   }
   .top-projects {
-    margin-top: 12vh;
+    margin-top: 18vh;
   }
   .pro-text {
     width: 20vw;
@@ -490,6 +492,9 @@ nav a:focus {
 
 
   }
+ // .projects {
+ //   background-position: 31vw;
+ // }
 
 
 }
